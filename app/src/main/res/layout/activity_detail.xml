@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171E26"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/DetailImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/ic_launcher_foreground"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="68dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDetailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="​COVID-19 ရောဂါ စောင့်ကြပ်ကြည့်ရှုမှုနှင့်ပတ်သက်၍ သတင်းထုတ်ပြန်ခြင်း (၁၄-၄-၂၀၂၀) ရက်နေ့၊ ည (၈:၀၀) နာရီ"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDetailSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="ကျန်းမာရေးနှင့်အားကစားဝန်ကြီးဌာန"
+                android:textColor="#1ED303"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDetailBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:lineSpacingExtra="5dp"
+                android:text="၁။ ကျန်းမာရေးနှင့်အားကစားဝန်ကြီးဌာနသည် တိုင်းဒေသကြီး/ ပြည်နယ်အသီးသီးတွင် COVID-19 ရောဂါ ကာကွယ်ထိန်းချုပ်‌‌ခြင်းနှင့် စောင့်ကြပ်ကြည့်ရှုခြင်းလုပ်ငန်းများကို သက်ဆိုင်ရာ ဒေသအာဏာပိုင်အဖွဲ့များ၊ အခြားဌာနဆိုင်ရာများနှင့် ချိတ်ဆက်၍ အရှိန်အဟုန်မြှင့် ဆောင်ရွက် လျက်ရှိပါသည်။
+၂။ (၁၃-၄-၂၀၂၀) ရက်နေ့၊ ညနေ (၆)နာရီမှ (၁၄-၄-၂၀၂၀)ရက်နေ့၊ ညနေ (၆)နာရီအထိ စောင့်ကြည့်လူနာအသစ် (၁၂၃) ဦး ရှိပါသည်။
+
+၃။ အမျိုးသားကျန်းမာရေးဓာတ်ခွဲမှုဆိုင်ရာဌာန (ရန်ကုန်)၏ (၁၄-၄-၂၀၂၀)ရက်နေ့၊ ည‌ (၇)နာရီအချိန် ထုတ်ပြန်ချက်အရ COVID-19 ရောဂါစောင့်ကြည့်လူနာနှင့် အသွားအလာကန့် သတ်ခြင်း/ တားမြစ်ခြင်း ဆောင်ရွက်ထားရှိသူ စုစုပေါင်း (၉၁)ဦးအား ပထမအသုတ်အနေဖြင့် စစ်‌ဆေးခဲ့ရာ (ဇယား-၁) တွင် ဖော်ပြထားသူ (၁)ဦးတွင် COVID-19 ရောဂါပိုးတွေ့ရှိရသဖြင့် ၎င်း အားသက်ဆိုင်ရာဆေးရုံသို့ ပို့ဆောင်၍ ကုသမှုပေးရန် ဆက်လက်စီစဉ်ဆောင်ရွက်သွား မည်ဖြစ်ပြီး ကျန် (၉၀)ဦးတွင် COVID-19 ရောဂါပိုး မတွေ့ရှိပါကြောင်း သိရှိရပါသည်။
+
+၄။ ယခုအချိန်အထိ COVID-19 ရောဂါ ဓာတ်ခွဲအတည်ပြုလူနာ (၆၃)ဦး တွေ့ရှိပြီးဖြစ်ကာ ၎င်းတို့အနက် -
+
+• ချင်းပြည်နယ်၊ တီးတိန် ပြည်သူ့ဆေးရုံတွင် (၃) ဦး၊
+
+• ရန်ကုန်မြို့၊ ဝေဘာဂီအထူးကုဆေးရုံကြီးတွင် လူနာ (၄၉) ဦး၊
+
+• ရှမ်း ပြည်နယ် (မြောက်ပိုင်း)၊ လားရှိုးပြည်သူ့ဆေးရုံကြီးတွင် (၁)ဦး၊
+
+• မော်လမြိုင်ပြည်သူ့ဆေးရုံကြီးတွင် လူနာ (၁) ဦး၊
+
+• စဝ်စံထွန်းပြည်သူ့ဆေးရုံကြီးတွင် လူနာ (၁)ဦးနှင့်
+
+• ပြည်သူ့ဆေးရုံကြီး၊ မကွေးမြို့တွင် (၁)ဦး၊
+
+• ယခုသတင်းတွင် ဖော်ပြထားသည့် ဓာတ်ခွဲအတည်ပြုလူနာသစ် (၁)ဦး၊ စုစုပေါင်း (၅၇)ဦး၏ ကျန်းမာရေးအခြေအနေမှာ တည်ငြိမ်လျက်ရှိပါသည်။
+
+• COVID-19 ရောဂါပိုးကင်းစင်၍ ဆေးရုံဆင်းခွင့်ပြုခဲ့ပြီး ရောဂါစောင့်ကြည့်လူနာနှင့် အသွားအလာကန့် သတ်ခြင်း/ တားမြစ်ခြင်း (Quarantine) ဆက်လက် ဆောင်ရွက် ထားရှိသူ (၂)ဦးနှင့် သေဆုံးသူ (၄)ဦးတို့ ဖြစ်ပါသည်။
+
+၅။ ကျန်းမာရေးနှင့်အားကစားဝန်ကြီးဌာနအနေဖြင့် COVID-19 ရောဂါနှင့်ပတ်သက်၍ သတင်းထုတ်ပြန်မှုအား (၁၅-၄-၂၀၂၀) ရက်နေ့မှစ၍ နံနက် (၉)နာရီမှ (၁၀) နာရီအကြားတွင် တစ်ကြိမ်နှင့် ည (၈)နာရီမှ (၉) နာရီအကြားတွင် တစ်ကြိမ်တို့ဖြင့် ထုတ်ပြန်သွားမည်ဖြစ်ပါသည်။"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
